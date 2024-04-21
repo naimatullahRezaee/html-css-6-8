@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Form Html</title>
+  </head>
+
+  <body>
+    <form>
+      <fieldset>
+        <legend>Personal Info</legend>
+
+        name:
+        <input type="text" name="name" /> <br />
+        email:
+        <input type="email" name="email" /> <br />
+        photo:
+        <input type="file" /><br />
+
+        gender :
+        <input type="radio" name="gender" value="male" checked /> Male
+        <input type="radio" name="gender" value="female" /> Female <br />
+
+        choose your language:
+        <select name="" id="">
+          <option>Dari</option>
+          <option selected>Pashto</option>
+          <option>English</option>
+        </select>
+      </fieldset>
+      <br /><br />
+      <fieldset>
+        <legend>Login form</legend>
+        username:
+        <input type="text" placeholder="enter your username" />
+        <br />
+        password:
+        <input type="password" placeholder="Enter your password" /> <br />
+        Message: <br />
+        <textarea
+          name=""
+          id=""
+          cols="20"
+          rows="7"
+          placeholder="message..."
+        ></textarea>
+      </fieldset>
+      <!-- <input type="submit" value="<b> Send </b>" /> -->
+      <button type="submit"><b>Send </b></button>
+    </form>
+  </body>
+</html>
