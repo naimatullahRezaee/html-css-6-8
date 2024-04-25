@@ -1,0 +1,19 @@
+p {
+  color: aquamarine;
+}
+
+p.new {
+  /* color: aqua; */
+}
+
+.new {
+  /* color: red; */
+}
+
+.new {
+  /* color: blue; */
+}
+
+h1 {
+  color: lightgreen;
+}
