@@ -1,19 +1,82 @@
-p {
+/* p {
   color: aquamarine;
+} */
+
+/* p.new { */
+/* color: aqua; */
+/* } */
+
+/* .new { */
+/* color: red; */
+/* }
+
+.new { */
+/* color: blue; */
+/* } */
+
+/* h1.new {
+  color: lightgreen;
+}
+h1.color {
+  color: red;
+} */
+/* h1 {
+  color: blue;
+} */
+
+/* background style */
+/* 
+body {
+  background-color: rgba(63, 160, 63, 0.4);
+} */
+
+/* h1 {
+  background-color: aqua;
+  text-align: center;
 }
 
-p.new {
-  /* color: aqua; */
-}
+div {
+  background-color: aquamarine;
+  text-align: center;
+} */
 
-.new {
-  /* color: red; */
-}
+/* body {
+  background-image: url("tm5.jpg");
+  background-repeat: no-repeat;
+  background-position: center; */
+/* background-attachment: fixed;  */
 
-.new {
-  /* color: blue; */
-}
+/* background-size: 100%; */
+/* background-size: cover; */
+/* background-size: contain; */
+/* background-size: 100% 400px; */
+/* } */
+
+/* div {
+  background-image: url("tm5.jpg");
+  background-repeat: no-repeat;
+  border-style: solid;
+  border-color: red;
+  border-width: 5px;
+} */
 
 h1 {
-  color: lightgreen;
+  /* border-style: outset;
+  border-width: 20px;
+  border-color: red;
+  border-radius: 50px; */
+
+  /* border-top-style: solid;
+  border-color: red;
+  border-width: 20px; */
+
+  /* border-style: solid;
+  border-width: 20px;
+  border-bottom-left-radius: 30px; */
+
+  /* border: 20px solid blue;
+  border-radius: 40px 10px; */
+  border-color: red blue green brown;
+  border-style: solid;
+  border-width: 20px;
 }
