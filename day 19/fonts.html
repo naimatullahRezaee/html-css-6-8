@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+
     <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -37,18 +38,26 @@
           url("fonts/lalezar.woff") format("woff");
       } */
 
+      @font-face {
+        font-family: "new";
+        src: url("icons/webfonts/fa-brands-400.ttf") format("truetype"),
+          url("icons/webfonts/fa-solid-900.woff2") format("woff2");
+      }
+
       p {
         font-size: 30px;
         color: red;
         text-align: center;
         text-transform: uppercase;
-        font-family: "Jersey 25 Charted";
+        /* font-family: "Jersey 25 Charted"; */
+        font-family: "new";
       }
     </style>
   </head>
   <body>
     <i class="fas fa-home" style="font-size: 50px; color: rgb(33, 194, 82)"></i>
 
+    <p>Hello</p>
     <!-- <i class="material-icons">key</i> -->
   </body>
 </html>
