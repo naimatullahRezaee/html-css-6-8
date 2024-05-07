@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "parstoo";
+  src: url("fonts/Parastoo-FD.ttf") format("truetype"),
+    url("fonts/Parastoo-FD.woff") format("woff");
+}
+
+body {
+  background-color: rgb(149, 208, 149);
+  font-family: "parstoo";
+}
+
+.container {
+  width: 500px;
+  height: 320px;
+  /* background-color: wheat; */
+  margin: 100px auto;
+
+  box-shadow: 0 0 20px rgb(98, 93, 93);
+  border-radius: 10px 20px;
+  position: relative;
+}
+
+.card {
+  width: 200px;
+  height: 300px;
+  background-color: rgb(221, 224, 224);
+  box-shadow: 0 0 20px rgb(98, 93, 93);
+  border-radius: 10px 20px;
+  overflow: hidden;
+  position: absolute;
+  top: -25px;
+  right: 20px;
+}
+
+.pic {
+  width: 100%;
+  height: 190px;
+}
+
+.bio {
+  width: 250px;
+  height: 300px;
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  padding: 10px;
+  text-align: justify;
+}
+
+.card p {
+  margin: 4px;
+}
