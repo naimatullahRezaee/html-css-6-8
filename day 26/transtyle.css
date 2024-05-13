@@ -1,0 +1,36 @@
+/* .box {
+  width: 200px;
+  height: 200px; */
+/* background-color: darkslategray; */
+/* transition: all 2s; */
+/* margin: 200px auto; */
+/* } */
+
+/* .box:hover { */
+/* transform: translate(200px, 100px); */
+/* transform: scale(-2); */
+/* transform: rotate(-10turn); */
+/* transform: skew(45deg); */
+/* } */
+
+.box1,
+.box2 {
+  width: 100px;
+  height: 100px;
+  background-color: aqua;
+  margin: 20px;
+  transition-property: transform;
+  transition-duration: 3s;
+}
+
+.box1 {
+  transition-timing-function: linear;
+}
+
+.box2 {
+  transition-timing-function: ease-in;
+}
+
+.container:hover div {
+  transform: translateX(300px);
+}
