@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#header {
+  width: 100%;
+  height: 100px;
+  background-color: rgb(69, 127, 178);
+}
+
+.container {
+  display: flex;
+}
+
+#aside {
+  width: 50%;
+  height: 300px;
+  order: 1;
+  background-color: rgb(61, 193, 78);
+}
+#section {
+  width: 50%;
+  height: 300px;
+
+  background-color: rgb(8, 238, 242);
+}
+#footer {
+  width: 100%;
+  height: 100px;
+  background-color: rgb(242, 217, 23);
+}
+
+@media screen and (max-width: 900px) {
+  .container {
+    flex-direction: column;
+  }
+  #aside {
+    width: 100%;
+    background-color: red;
+    order: 0;
+  }
+  #section {
+    width: 100%;
+    order: 1;
+  }
+}
